@@ -9,6 +9,7 @@ const Slide = ({ image, title }) => (
     <img src={image} alt={title} />
     <div className='slide-content'>
       <h1>Your Trip, Your Adventure</h1>
+      <p>Let's drive together</p>
       <button className='download-button'>Get the App</button>
     </div>
   </div>
@@ -36,12 +37,13 @@ const SliderComponent = () => {
   const slides = [
     {
       id: 1,
-      image: "https://images.pexels.com/photos/12194164/pexels-photo-12194164.jpeg?auto=compress&cs=tinysrgb&w=600",
+      image:
+        "https://images.pexels.com/photos/620335/pexels-photo-620335.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     },
     {
       id: 2,
       image:
-        "https://images.pexels.com/photos/620335/pexels-photo-620335.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "https://images.pexels.com/photos/2705755/pexels-photo-2705755.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     },
     {
       id: 3,
