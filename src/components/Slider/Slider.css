@@ -40,12 +40,15 @@
 .download-button {
   padding: 10px 20px;
   font-size: 16px;
-  background: #24a068;
+  background: transparent;
   color: #fff;
-  border: none;
+  border: 2px #24a068 solid;
   border-radius: 5px;
+
   cursor: pointer;
 }
 .download-button:hover {
-  background: #1bcb7f;
+  opacity: 0.8;
+
+  color: #1bcb7f;
 }
