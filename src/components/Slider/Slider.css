@@ -26,12 +26,14 @@
 }
 
 .slide-content h1 {
-  font-size: 32px;
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  font-size: 6vw;
+  line-height: 0.2;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
   white-space: nowrap;
 }
 .slide-content p {
-  font-size: 20px;
+  font-size: 2vw;
+  line-height: 0.2;
   color: white;
   opacity: 0.7;
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
