@@ -45,7 +45,8 @@ const SliderComponent = () => {
     },
     {
       id: 3,
-      image: "https://images.pexels.com/photos/2061417/pexels-photo-2061417.jpeg?auto=compress&cs=tinysrgb&w=600",
+      image:
+        "https://images.pexels.com/photos/620332/pexels-photo-620332.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     },
   ];
 
