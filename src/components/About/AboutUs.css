@@ -43,5 +43,19 @@
 }
 
 .content {
-  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: calc((100vw - 550px) / 2);
+  margin-right: calc((100vw - 550px) / 2);
+}
+
+.content img {
+  width: 150px;
+}
+
+.content text {
+  max-width: 350px;
+  line-height: 0.8;
 }
