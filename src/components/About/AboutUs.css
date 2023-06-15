@@ -1,0 +1,61 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 25px;
+}
+
+.title {
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin: 25px 0;
+}
+
+.aboutUs-button {
+  padding: 10px 50px;
+  font-size: 16px;
+  background: transparent;
+  color: #24a068;
+  border: 2px solid #24a068;
+  border-radius: 25px;
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+.aboutUs-button.selected {
+  background: #24a068;
+  color: #fff;
+}
+
+.aboutUs-button.selected:hover {
+  opacity: 0.8;
+}
+
+.aboutUs-button:not(.selected):hover {
+  color: #1bcb7f;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: calc((100vw - 550px) / 2);
+  margin-right: calc((100vw - 550px) / 2);
+}
+
+.content img {
+  width: 150px;
+}
+
+.content text {
+  max-width: 350px;
+  line-height: 0.8;
+}
