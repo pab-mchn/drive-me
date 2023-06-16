@@ -3,6 +3,7 @@ import SliderComponent from "./components/Slider/Slider";
 import AboutUs from "./components/About/AboutUs";
 import Booking from "./components/Booking/Booking";
 import StepByStep from "./components/StepByStep/StepByStep";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <AboutUs />
       <Booking />
       <StepByStep />
+      <Footer />
     </>
   );
 }

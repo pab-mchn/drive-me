@@ -55,9 +55,7 @@ const AboutUs = () => {
       <div className='content-container'>
         {selectedButton === 1 && (
           <div className='content'>
-            <div className='image'>
-              <img src='https://i.pinimg.com/564x/74/56/d1/7456d1abee19dd95d6e68dee0521e4b4.jpg' alt='About Us' />
-            </div>
+            <div className='image'></div>
             <div className='text'>
               <p>
                 We are Drive Me, an innovative platform that connects drivers and passengers to facilitate safe and
@@ -69,9 +67,7 @@ const AboutUs = () => {
         )}
         {selectedButton === 2 && (
           <div className='content'>
-            <div className='image'>
-              <img src='https://i.pinimg.com/564x/74/56/d1/7456d1abee19dd95d6e68dee0521e4b4.jpg' alt='About Us' />
-            </div>
+            <div className='image'></div>
             <div className='text'>
               <p>
                 We offer a simple solution for drivers who regularly travel in their own vehicles. Our application
@@ -85,7 +81,7 @@ const AboutUs = () => {
         {selectedButton === 3 && (
           <div className='content'>
             <div className='image'>
-              <img src='https://i.pinimg.com/564x/74/56/d1/7456d1abee19dd95d6e68dee0521e4b4.jpg' alt='About Us' />
+              {/* <img src='https://i.pinimg.com/564x/74/56/d1/7456d1abee19dd95d6e68dee0521e4b4.jpg' alt='About Us' /> */}
             </div>
             <div className='text'>
               <p>
