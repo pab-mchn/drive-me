@@ -6,7 +6,7 @@ const ContextProvider = ({ children }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   const openPopup = () => {
-    console.log("hey");
+    setIsOpen(true);
   };
 
   const closePopup = () => {

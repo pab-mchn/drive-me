@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 import Slider from "react-slick";
 import { Context } from "../context/Context";
+import PopUp from "../PopUp/PopUp"; // Import the pop-up component
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./Slider.css";
@@ -68,6 +69,7 @@ const SliderComponent = () => {
           </div>
         ))}
       </Slider>
+      {openPopup && <PopUp />}
     </div>
   );
 };
