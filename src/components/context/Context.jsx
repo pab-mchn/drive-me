@@ -1,9 +1,19 @@
 import React, { createContext, useState } from "react";
 
-const Context = createContext();
+export const Context = createContext();
 
 const ContextProvider = ({ children }) => {
-  return <Context.Provider value={{}}>{children}</Context.Provider>;
+  const [isOpen, setIsOpen] = useState(false);
+
+  const openPopup = () => {
+    console.log("hey");
+  };
+
+  const closePopup = () => {
+    setIsOpen(false);
+  };
+
+  return <Context.Provider value={{ isOpen, openPopup, closePopup }}>{children}</Context.Provider>;
 };
 
-export { Context, ContextProvider };
+export default ContextProvider;

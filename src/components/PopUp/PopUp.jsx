@@ -1,28 +1,19 @@
-import React, { useState } from "react";
-import "./PopUp.css";
+import React, { createContext, useState } from "react";
 
-const Popup = () => {
-  const [isOpen, setIsOpen] = useState(true);
+export const Context = createContext();
 
-  const handleClose = () => {
+const ContextProvider = ({ children }) => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const openPopup = () => {
+    setIsOpen(true);
+  };
+
+  const closePopup = () => {
     setIsOpen(false);
   };
 
-  return (
-    <>
-      {isOpen && (
-        <div className='popup-container'>
-          <div className='popup-content'>
-            <h3>In the moment we are working on creating our app!</h3>
-            <p>In the meantime, you can register and we will keep you updated.</p>
-            <button className='close-button' onClick={handleClose}>
-              Close
-            </button>
-          </div>
-        </div>
-      )}
-    </>
-  );
+  return <Context.Provider value={{ isOpen, openPopup, closePopup }}>{children}</Context.Provider>;
 };
 
-export default Popup;
+export default ContextProvider;
