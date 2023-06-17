@@ -1,29 +1,38 @@
 .booking-container {
   display: flex;
   flex-direction: row;
-  margin: 25px;
+  margin-top: 25px;
+  margin-bottom: 25px;
   background-color: lightgrey;
-  width: 50%; /* Adjust the width as needed */
+  width: 50%;
+}
+
+.booking-content {
+  margin-left: 20px;
+  margin-bottom: 20px;
+  margin-right: 120px;
 }
 
 .title-section {
   font-size: 20px;
-  text-align: center;
-  flex-direction: column; /* To stack the content vertically */
+  text-align: right;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
-.content-section {
+.text-section {
   display: flex;
-  flex-direction: column; /* To stack the content vertically */
+  flex-direction: column;
+  text-align: right;
   align-items: center;
   justify-content: center;
+  margin-top: 0px;
 }
 
 .button-container {
   display: flex;
-  justify-content: center;
+  justify-content: right;
   align-items: center;
 }
 

@@ -7,7 +7,7 @@ const Booking = () => {
         <div className='title-section'>
           <h2>Book your Drive-me in just a few seconds!</h2>
         </div>
-        <div className='content-section'>
+        <div className='text-section'>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum in ex atque officia animi aut maiores accusantium mollitia quidem, maxime assumenda repudiandae. Eum atque dolor earum error blanditiis itaque praesentium.
           </p>
@@ -15,7 +15,7 @@ const Booking = () => {
         <div className='title-section'>
           <h2>Download now</h2>
         </div>
-        <div className='content-section'>
+        <div className='text-section'>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto quidem expedita in fuga nihil, aliquid iure delectus recusandae libero sint.
           </p>
