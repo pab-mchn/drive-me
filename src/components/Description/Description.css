@@ -1,8 +1,14 @@
-.main-container {
+.parent-container {
   display: flex;
-  flex-direction: column;
+}
+
+.description-container {
+  display: flex;
+  /* flex: 1; */
+  flex-direction: row;
   align-items: center;
   justify-content: center;
+  width: 50%;
   margin: 25px;
   background-color: #24a068;
 }

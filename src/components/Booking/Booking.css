@@ -1,15 +1,24 @@
 .booking-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  flex-direction: row;
   margin: 25px;
   background-color: lightgrey;
+  width: 50%; /* Adjust the width as needed */
 }
 
 .title-section {
   font-size: 20px;
   text-align: center;
+  flex-direction: column; /* To stack the content vertically */
+  align-items: center;
+  justify-content: center;
+}
+
+.content-section {
+  display: flex;
+  flex-direction: column; /* To stack the content vertically */
+  align-items: center;
+  justify-content: center;
 }
 
 .button-container {
