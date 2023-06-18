@@ -1,21 +1,16 @@
-import React from "react";
+import React, { useContext } from "react";
 import Slider from "react-slick";
+import { Context } from "../context/Context";
+import PopUp from "../PopUp/PopUp"; // Import the pop-up component
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./Slider.css";
 
-const Slide = ({ image, title }) => (
-  <div className='slide'>
-    <img src={image} alt={title} />
-    <div className='slide-content'>
-      <h1>Your Trip, Your Adventure</h1>
-      <p>Let's drive together</p>
-      <button className='download-button'>Get the App</button>
-    </div>
-  </div>
-);
-
 const SliderComponent = () => {
+  const { openPopup } = useContext(Context);
+  const handleOpenPopup = () => {
+    openPopup(); // Llama a la función openPopup desde el contexto para mostrar el pop-up
+  };
   const settings = {
     dots: true,
     infinite: true,
@@ -52,6 +47,19 @@ const SliderComponent = () => {
     },
   ];
 
+  const Slide = ({ image, title }) => (
+    <div className='slide'>
+      <img src={image} alt={title} />
+      <div className='slide-content'>
+        <h1>Your Trip, Your Adventure</h1>
+        <p>Let's drive together</p>
+        <button className='download-button' onClick={handleOpenPopup}>
+          Get the App
+        </button>
+      </div>
+    </div>
+  );
+
   return (
     <div className='slider-wrapper'>
       <Slider {...settings}>
@@ -61,6 +69,7 @@ const SliderComponent = () => {
           </div>
         ))}
       </Slider>
+      {openPopup && <PopUp />}
     </div>
   );
 };

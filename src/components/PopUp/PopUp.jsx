@@ -1,21 +1,21 @@
-import React, { useState } from "react";
-import "./PopUp.css";
+import React, { useContext } from "react";
+import { Context } from "../context/Context";
+import "./Popup.css";
 
-const Popup = () => {
-  const [isOpen, setIsOpen] = useState(true);
-
-  const handleClose = () => {
-    setIsOpen(false);
-  };
+const PopUp = () => {
+  const { isOpen, closePopup } = useContext(Context);
 
   return (
     <>
       {isOpen && (
-        <div className='popup-container'>
-          <div className='popup-content'>
-            <h3>In the moment we are working on creating our app!</h3>
-            <p>In the meantime, you can register and we will keep you updated.</p>
-            <button className='close-button' onClick={handleClose}>
+        <div className='modal-overlay'>
+          <div className='popup-container'>
+            <h3>get the app</h3>
+            <p>
+              we are working in the app, if you want you can pre register over here and we will let you know when the
+              app is ready TRABAJAR MEJOR EN EL TEXTO Y LOS ESTILOS!
+            </p>
+            <button className='close-button' onClick={closePopup}>
               Close
             </button>
           </div>
@@ -25,4 +25,4 @@ const Popup = () => {
   );
 };
 
-export default Popup;
+export default PopUp;
