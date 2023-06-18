@@ -1,4 +1,5 @@
 import Booking from '../Booking/Booking';
+// import PhoneSketch from '../PhoneSketch/PhoneSketch';
 import './Description.css';
 
 const Description = () => {
@@ -6,7 +7,10 @@ const Description = () => {
     <div className='parent-container'>
       <Booking />
       <div className='img-container'>
-        <img src='src\assets\mockup.png' alt='cellphone'></img>
+        {/* <div className='animation-container'>
+          <PhoneSketch />
+        </div> */}
+        <img src='src/assets/mockup.png' alt='cellphone' className='phone-img' />
       </div>
       <div className='description-container'>
         <div className='content-container'>
