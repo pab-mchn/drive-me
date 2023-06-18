@@ -3,6 +3,7 @@ import SliderComponent from "./components/Slider/Slider";
 import AboutUs from "./components/About/AboutUs";
 import Footer from "./components/Footer/Footer";
 import ContextProvider from "./components/context/Context";
+import Description from "./components/Description/Description";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Navbar />
       <SliderComponent />
       <AboutUs />
+      <Description/>
       <Footer />
     </ContextProvider>
   );

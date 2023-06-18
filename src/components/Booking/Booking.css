@@ -1,0 +1,72 @@
+.booking-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  background-color: lightgrey;
+  width: 50%;
+}
+
+.booking-content {
+  margin-left: 20px;
+  margin-bottom: 20px;
+  margin-right: 120px;
+}
+
+.title-section {
+  font-size: 20px;
+  text-align: right;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0px;
+}
+
+.text-section {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.google-play-button,
+.apple-store-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 4px;
+  padding: 12px 16px;
+  margin: 8px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.google-play-button {
+  background-color: #4285f4;
+}
+
+.apple-store-button {
+  background-color: #000;
+}
+
+.google-play-button i,
+.apple-store-button i {
+  margin-right: 8px;
+}
+
+.google-play-button:hover,
+.apple-store-button:hover {
+  filter: brightness(90%);
+}
