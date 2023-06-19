@@ -1,5 +1,5 @@
 import Booking from "../Booking/Booking";
-import PhoneSketch from "../PhoneSketch/PhoneSketch";
+// import PhoneSketch from "../PhoneSketch/PhoneSketch";
 import "./Description.css";
 
 const Description = () => {
