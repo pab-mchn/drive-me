@@ -11,7 +11,7 @@ function App() {
       <Navbar />
       <SliderComponent />
       <AboutUs />
-      <Description/>
+      <Description />
       <Footer />
     </ContextProvider>
   );
