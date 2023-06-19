@@ -2,13 +2,17 @@
   display: flex;
 }
 
-.img-container img {
+.img-container {
   position: absolute;
-  height: 70%;
-  width: auto;
-  top: 245%;
+  top: 230%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.img-container img {
+  position: relative;
+  height: 350px;
+  width: auto;
   z-index: 1;
 }
 
@@ -20,7 +24,7 @@
   width: 50%;
   margin-top: 25px;
   margin-bottom: 25px;
-  background-color: #24a068;
+  background-color: var(--base-green);
 }
 
 .content-container {
@@ -53,7 +57,7 @@
 
 .column-container .image img {
   width: 30px;
-  background-color: white;
+  background-color: var(--base-white);
 }
 
 .content-section {
@@ -61,7 +65,7 @@
   flex-direction: column;
   align-items: center;
   text-align: left;
-  color: white;
+  color: var(--base-white);
 }
 
 .content-section h3 {

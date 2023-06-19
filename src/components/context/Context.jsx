@@ -1,7 +1,8 @@
-import React, { createContext, useState } from "react";
+import { createContext, useState } from "react";
 
 export const Context = createContext();
 
+// eslint-disable-next-line react/prop-types
 const ContextProvider = ({ children }) => {
   const [isOpen, setIsOpen] = useState(false);
 
