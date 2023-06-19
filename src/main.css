@@ -13,7 +13,11 @@
   --base-green: #24a068;
   --shine-green: #1bcb7f;
   --base-white: #fff;
-  --font-black: #0000;
+  --base-black: #0000;
+
+  /*lines*/
+  --xl-line-height: 1.5;
+  --sm-line-height: 1.1;
 }
 
 body {
