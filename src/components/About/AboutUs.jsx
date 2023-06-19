@@ -60,6 +60,7 @@ const AboutUs = () => {
                 We are Drive Me, an innovative platform that connects drivers and passengers to facilitate safe and
                 convenient ridesharing. We have a mission to transform the way people travel, providing an efficient and
                 collaborative alternative.
+                
               </p>
             </div>
           </div>
