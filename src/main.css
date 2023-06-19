@@ -2,12 +2,12 @@
   /*screens*/
 
   /*mobile*/
-  --sm: "640px";
+  --sm: 640px;
   /*midium sizes*/
-  --md: "1024px";
-  --xl: "1280px";
+  --md: 1024px;
+  --xl: 1280px;
   /*extra large*/
-  --xxl: "1536px";
+  --xxl: 1536px;
 
   /*colors*/
   --base-green: #24a068;

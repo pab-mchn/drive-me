@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <div className='nav-container'>
       <nav className='navbar'>
-        <h1 id='navbar-logo'>DRIVE ME.</h1>
+        <h1 className='navbar-logo'>DRIVE ME.</h1>
         <div className={`menu-toggle ${isMenuOpen ? "is-active" : ""}`} id='mobile-menu' onClick={toggleMenu}>
           <span className='bar'></span>
           <span className='bar'></span>

@@ -1,5 +1,5 @@
 .nav-container {
-  background-color: var(--base-white);
+  background-color: #e9e8e8;
   z-index: 20;
   position: sticky;
   top: 0;
@@ -15,7 +15,7 @@
   margin: 0 auto;
 }
 
-#navbar-logo {
+.navbar-logo {
   color: var(--baseBlack);
   justify-self: start;
   margin-left: 20px;
@@ -40,7 +40,7 @@
   padding: 8px 18px;
   font-size: 14px;
   border-radius: 25px;
-  background: var(--base-white);
+  background: transparent;
   color: var(--base-green);
   border: 2px solid var(--base-green);
   font-weight: bold;
@@ -64,7 +64,7 @@
 
 /* MEDIA QUERIES FOR RESPONSIVE STYLES */
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: var(--sm)) {
   .nav-container {
     position: sticky;
     top: 0;
@@ -83,7 +83,7 @@
     transition: all 0.5s ease;
   }
 
-  #navbar-logo {
+  .navbar-logo {
     margin-left: 20px;
   }
 
