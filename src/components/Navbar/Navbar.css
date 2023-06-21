@@ -65,7 +65,7 @@
 
 /* MEDIA QUERIES FOR RESPONSIVE STYLES */
 
-@media screen and (max-width: var(--sm)) {
+@media screen and (max-width: 640px) {
   .nav-container {
     position: sticky;
     top: 0;
