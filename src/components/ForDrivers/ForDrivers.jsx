@@ -6,7 +6,9 @@ const ForDrivers = () => {
   return (
     <div>
         <Navbar/>
-        <h1>ForDrivers</h1>
+        <div className="banner">
+          <h2 className="title-banner">FOR<br/>DRIVERS</h2>
+        </div>
         <Footer/>
     </div>
   )
