@@ -1,19 +1,22 @@
 .parent-container {
   display: flex;
+  justify-content: center;
 }
 
 .img-container {
-  position: absolute;
-  top: 230%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.img-container img {
   position: relative;
   height: 350px;
   width: auto;
   z-index: 1;
+}
+
+.img-container img {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 100%;
+  width: auto;
 }
 
 .description-container {
@@ -22,8 +25,7 @@
   align-items: center;
   justify-content: center;
   width: 50%;
-  margin-top: 25px;
-  margin-bottom: 25px;
+
   background-color: var(--base-green);
 }
 
