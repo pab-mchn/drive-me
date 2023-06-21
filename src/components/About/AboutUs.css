@@ -17,7 +17,9 @@
   justify-content: center;
   margin: 25px 0;
 }
-
+.about-content-container {
+  height: 250px;
+}
 .aboutUs-button {
   padding: 10px 50px;
   font-size: 16px;
