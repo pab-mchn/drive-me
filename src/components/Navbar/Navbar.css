@@ -1,5 +1,5 @@
 .nav-container {
-  background-color: #e9e8e8;
+  background-color: var(--dark-white);
   z-index: 20;
   position: sticky;
   top: 0;
@@ -11,7 +11,7 @@
   align-items: center;
   height: 80px;
   width: 100%;
-  max-width: 1720px;
+  /* max-width: 1720px; */
   margin: 0 auto;
 }
 
@@ -20,10 +20,11 @@
   justify-self: start;
   margin-left: 20px;
   font-size: 20px;
+  font-weight: 1200;
   text-decoration: none;
 }
 
-#navbar-logo:hover {
+.navbar-logo:hover {
   cursor: pointer;
   color: var(--shine-green);
   transition: all 0.2s ease-out;

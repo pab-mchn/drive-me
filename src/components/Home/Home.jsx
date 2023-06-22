@@ -5,20 +5,18 @@ import Footer from "../Footer/Footer";
 import ContextProvider from "../context/Context";
 import Description from "../Description/Description";
 
-
 const Home = () => {
   return (
     <>
-        <ContextProvider>
-            <Navbar />
-            <SliderComponent />
-            <AboutUs />
-            <Description />
-            <Footer />
-        </ContextProvider>
+      <ContextProvider>
+        <Navbar />
+        <SliderComponent />
+        <AboutUs />
+        <Description />
+        <Footer />
+      </ContextProvider>
     </>
-    
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

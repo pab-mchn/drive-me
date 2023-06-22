@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 :root {
   /*screens*/
 
@@ -13,14 +14,17 @@
   --base-green: #24a068;
   --shine-green: #1bcb7f;
   --base-white: #fff;
-  --base-black: #0000;
+  --dark-white: #fdfdfd;
+  --base-black: #141414;
 
   /*lines*/
   --xl-line-height: 1.5;
-  --sm-line-height: 1.1;
+  --sm-line-height: 1.3;
 }
 
 body {
   margin: 0px;
   padding: 0px;
+  font-family: "Roboto", sans-serif;
+  color: #000000;
 }

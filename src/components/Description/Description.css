@@ -25,7 +25,6 @@
   align-items: center;
   justify-content: center;
   width: 50%;
-
   background-color: var(--base-green);
 }
 
@@ -59,13 +58,12 @@
 
 .column-container .image img {
   width: 30px;
-  background-color: var(--base-white);
+  /* background-color: var(--base-white); */
 }
 
 .content-section {
   display: flex;
   flex-direction: column;
-  align-items: center;
   text-align: left;
   color: var(--base-white);
 }
@@ -73,4 +71,91 @@
 .content-section h3 {
   margin-bottom: 0px;
   margin-left: 0px;
+  max-width: 400px;
+  overflow-wrap: break-word;
+}
+
+.content-section p {
+  max-width: 400px;
+  line-height: var(--sm-line-height);
+}
+
+/* @media screen and (max-width: 1024px) {
+  .parent-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .description-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: var(--base-green);
+  }
+  .img-container,
+  .img-container img {
+    display: none;
+  }
+} */
+
+.phone-title {
+  display: none; /* Hide the title by default */
+}
+@media screen and (max-width: 1024px) {
+  .img-container {
+    position: relative;
+  }
+
+  .img-container img {
+    top: 55%;
+  }
+
+  .phone-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 40%; /* Adjust the top position according to your preference */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 74px; /* Adjust the font size according to your preference */
+    color: var(--base-green);
+    z-index: 2;
+  }
+
+  .parent-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Add this line to center the content horizontally */
+    justify-content: center; /* Add this line to center the content vertically */
+  }
+
+  .description-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: var(--base-green);
+    margin-top: 20px; /* Add this line to create some spacing */
+  }
+
+  .content-container {
+    margin: 20px auto; /* Center the content horizontally */
+  }
+
+  .row-container {
+    justify-content: center; /* Center the row content horizontally */
+  }
+
+  .column-container {
+    margin-right: 0; /* Remove the right margin */
+    justify-content: center; /* Center the column content horizontally */
+  }
+
+  .content-section {
+    text-align: center; /* Center the text */
+  }
 }

@@ -3,7 +3,7 @@ import "./Footer.css";
 
 const Footer = () => {
   return (
-    <footer className='footer' style={{ background: "#24a068" }}>
+    <footer className='footer'>
       <h2 className='title'>Be part of our Comunity</h2>
       <button className='register-button'>Register</button>
       <div className='footer-sections'>

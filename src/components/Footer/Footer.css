@@ -3,11 +3,12 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background: var(--base-green);
   height: 50vh;
 }
 
 .footer .title {
-  color: #fff;
+  color: var(--base-white);
   font-size: 44px;
   margin-bottom: 40px;
 }
@@ -18,7 +19,7 @@
   padding: 1rem 3.5rem;
   border-radius: 10rem;
   font-weight: 600;
-  color: #fff;
+  color: var(--base-white);
   border: 2px solid #fff;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
@@ -31,18 +32,40 @@
 }
 
 .section {
-  color: #fff;
+  color: var(--base-white);
   font-size: 18px;
   margin: 0 10px;
   font-weight: bold;
 }
 
 .separator {
-  color: #fff;
+  color: var(--base-white);
   font-size: 16px;
 }
 .rights {
-  color: #fff;
+  color: var(--base-white);
   font-size: 14px;
   text-align: center;
+}
+@media screen and (max-width: 1024px) {
+  .footer {
+    background-color: var(--dark-white);
+    color: var(--base-black);
+  }
+  .footer .title {
+    color: var(--base-black);
+  }
+  .register-button {
+    color: var(--base-black);
+    border: 2px solid var(--base-black);
+  }
+  .section {
+    color: var(--base-black);
+  }
+  .separator {
+    color: var(--base-black);
+  }
+  .rights {
+    color: var(--base-black);
+  }
 }

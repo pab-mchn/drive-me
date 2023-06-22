@@ -10,6 +10,7 @@ const Description = () => {
         {/* <div className='animation-container'>
           <PhoneSketch />
         </div> */}
+        {window.innerWidth <= 1024 && <h1 className='phone-title'>DriveMe</h1>}
         <img src='src/assets/mockup.png' alt='cellphone' className='phone-img' />
       </div>
       <div className='description-container'>
@@ -17,7 +18,7 @@ const Description = () => {
           <div className='row-container'>
             <div className='column-container'>
               <div className='image'>
-                <img src='src\assets\map-icon.png' alt='About Us' />
+                <img src='src\assets\map-icon-white.png' alt='About Us' />
               </div>
               <div className='content-section'>
                 <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h3>
@@ -31,7 +32,7 @@ const Description = () => {
           <div className='row-container'>
             <div className='column-container'>
               <div className='image'>
-                <img src='src\assets\map-icon.png' alt='About Us' />
+                <img src='src\assets\map-icon-white.png' alt='About Us' />
               </div>
               <div className='content-section'>
                 <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h3>
@@ -45,7 +46,7 @@ const Description = () => {
           <div className='row-container'>
             <div className='column-container'>
               <div className='image'>
-                <img src='src\assets\map-icon.png' alt='About Us' />
+                <img src='src\assets\map-icon-white.png' alt='About Us' />
               </div>
               <div className='content-section'>
                 <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h3>

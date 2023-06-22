@@ -1,7 +1,8 @@
 .booking-container {
   display: flex;
   flex-direction: row;
-  background-color: #e9e8e8;
+  justify-content: center;
+  background-color: #eeeeee;
   width: 50%;
 }
 
@@ -12,10 +13,10 @@
 }
 
 .title-section {
+  display: flex;
   font-size: 20px;
   text-align: right;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
   margin-bottom: 0px;
 }
@@ -61,12 +62,43 @@
   text-decoration: none;
 }
 
-.google-play-button i,
-.apple-store-button i {
+.google-play-button,
+.apple-store-button {
   margin-right: 8px;
+  text-decoration: none;
 }
 
 .google-play-button:hover,
 .apple-store-button:hover {
   filter: brightness(90%);
+}
+.title-section {
+  max-width: 400px;
+}
+
+.text-section {
+  max-width: 400px;
+  line-height: var(--sm-line-height);
+}
+@media screen and (max-width: 1024px) {
+  .booking-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 50px;
+  }
+
+  .booking-content {
+    margin: 20px 20px; /* Center the content vertically and horizontally */
+  }
+
+  .title-section,
+  .text-section {
+    text-align: left; /* Center the text */
+  }
+  .download-content {
+    display: none;
+  }
 }
