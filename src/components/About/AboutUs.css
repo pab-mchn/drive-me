@@ -67,3 +67,10 @@
   font-size: 20px;
   line-height: var(--xl-line-height);
 }
+
+@media screen and (max-width: 640px) {
+  .aboutUs-button {
+    padding: 5px 25px;
+    margin: 0 5px;
+  }
+}
