@@ -10,7 +10,8 @@ const Description = () => {
         {/* <div className='animation-container'>
           <PhoneSketch />
         </div> */}
-        {window.innerWidth <= 1024 && <h1 className='phone-title'>DriveMe</h1>}
+        <h1 className='phone-title'>DriveMe</h1>
+        {/* {window.innerWidth <= 1024 && <h1 className='phone-title'>DriveMe</h1>} */}
         <img src='src/assets/mockup.png' alt='cellphone' className='phone-img' />
       </div>
       <div className='description-container'>
@@ -21,10 +22,10 @@ const Description = () => {
                 <img src='src\assets\map-icon-white.png' alt='About Us' />
               </div>
               <div className='content-section'>
-                <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h3>
+                <h3>Book or offer your ride.</h3>
                 <p>
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore voluptatum blanditiis dolore! Eaque,
-                  dolor minima ex voluptate eius esse error?
+                  If you're a driver, mark your route and offer available seats. If you're a passenger, book a ride on
+                  your desired route.
                 </p>
               </div>
             </div>
@@ -35,10 +36,10 @@ const Description = () => {
                 <img src='src\assets\map-icon-white.png' alt='About Us' />
               </div>
               <div className='content-section'>
-                <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h3>
+                <h3>Share expenses and reduce traffic.</h3>
                 <p>
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore voluptatum blanditiis dolore! Eaque,
-                  dolor minima ex voluptate eius esse error?
+                  By sharing rides, you'll have the opportunity to split expenses and say goodbye to traffic and travel
+                  hassles
                 </p>
               </div>
             </div>
@@ -49,10 +50,10 @@ const Description = () => {
                 <img src='src\assets\map-icon-white.png' alt='About Us' />
               </div>
               <div className='content-section'>
-                <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h3>
+                <h3>Encourage social interaction and community:</h3>
                 <p>
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore voluptatum blanditiis dolore! Eaque,
-                  dolor minima ex voluptate eius esse error?
+                  Join our community of drivers and passengers, fostering social interaction and building connections
+                  during your shared journeys.
                 </p>
               </div>
             </div>
