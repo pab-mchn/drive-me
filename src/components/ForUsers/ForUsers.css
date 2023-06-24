@@ -24,3 +24,15 @@
 .cards-column {
   flex: 1;
 }
+
+/* MEDIA QUERIES FOR RESPONSIVE STYLES */
+
+@media screen and (max-width: 640px) {
+  .cards-container {
+    display: grid;
+  }
+
+  .card {
+    margin-right: 90px;
+  }
+}
