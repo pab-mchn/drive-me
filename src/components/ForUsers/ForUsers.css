@@ -1,0 +1,38 @@
+.banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+  background-color: var(--base-green);
+}
+
+.banner .title-banner {
+  color: var(--base-white);
+  font-size: 44px;
+  text-align: center;
+}
+
+.cards-parent-container {
+  background-color: #e9e8e8;
+}
+
+.cards-container {
+  display: flex;
+}
+
+.cards-column {
+  flex: 1;
+}
+
+/* MEDIA QUERIES FOR RESPONSIVE STYLES */
+
+@media screen and (max-width: 640px) {
+  .cards-container {
+    display: grid;
+  }
+
+  .card {
+    margin-right: 90px;
+  }
+}
