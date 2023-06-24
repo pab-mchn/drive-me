@@ -1,8 +1,8 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import ForDrivers from './components/ForDrivers/ForDrivers';
 import Home from './components/Home/Home';
 import ContextProvider from './components/context/Context';
-import ForPassengers from './components/ForPassengers/ForPassengers';
+import ForDrivers from './components/ForUsers/ForDrivers';
+import ForPassengers from './components/ForUsers/ForPassengers';
 
 function App() {
   return (

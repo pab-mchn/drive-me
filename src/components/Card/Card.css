@@ -1,0 +1,22 @@
+.card {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.card-number,
+.card-content {
+  flex: 1;
+  /* padding: 10px; */
+  text-align: left;
+}
+
+.card-number {
+  text-align: right;
+  align-items: top;
+  color: grey;
+  font-size: 40px;
+}
+
+.card-content p {
+  color: grey;
+}
