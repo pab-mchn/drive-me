@@ -27,7 +27,7 @@ const AboutUs = () => {
       clearInterval(intervalId);
     };
   }, [isLoopActive]);
-
+  // className={`container ${selectedButton === 1 ? "section1" : ""}`}
   return (
     <div className='container'>
       <h2 className='title'>Get to Know Us</h2>
@@ -60,7 +60,6 @@ const AboutUs = () => {
                 We are Drive Me, an innovative platform that connects drivers and passengers to facilitate safe and
                 convenient ridesharing. We have a mission to transform the way people travel, providing an efficient and
                 collaborative alternative.
-                
               </p>
             </div>
           </div>
