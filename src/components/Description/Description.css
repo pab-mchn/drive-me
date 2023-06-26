@@ -80,26 +80,6 @@
   line-height: var(--sm-line-height);
 }
 
-/* @media screen and (max-width: 1024px) {
-  .parent-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  .description-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    background-color: var(--base-green);
-  }
-  .img-container,
-  .img-container img {
-    display: none;
-  }
-} */
-
 .phone-title {
   display: none; /* Hide the title by default */
 }
@@ -143,7 +123,7 @@
   }
 
   .content-container {
-    margin: 20px auto; /* Center the content horizontally */
+    margin: 20px 20px; /* Center the content horizontally */
   }
 
   .row-container {
